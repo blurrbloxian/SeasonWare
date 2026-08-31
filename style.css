@@ -66,20 +66,23 @@ body {
     transform: translateY(0);
 }
 
-/* ===== BIGGER CUSTOM LOGO STYLES ===== */
+/* ===== MASSIVE BOLD LOGO ===== */
 .logo-icon {
-    height: 40px; /* ✅ BIG & CLEAR — perfect size */
+    height: 52px; /* ✅ MUCH BIGGER — bold & clear */
     width: auto;
-    margin-right: 12px;
-    filter: drop-shadow(0 0 6px rgba(125, 211, 252, 0.3));
+    margin-right: 14px;
+    padding: 4px; /* cuts extra empty space around logo */
+    transform: scale(1.3); /* ✅ ZOOMS IN — removes empty space */
+    filter: drop-shadow(0 0 8px rgba(125, 211, 252, 0.4));
 }
 
 .footer-logo {
-    height: 30px; /* ✅ BIGGER footer logo too */
+    height: 36px; /* ✅ BIG footer logo too */
     width: auto;
     margin-right: 10px;
     vertical-align: middle;
-    filter: drop-shadow(0 0 4px rgba(125, 211, 252, 0.3));
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 5px rgba(125, 211, 252, 0.3));
 }
 
 .navbar {
@@ -463,5 +466,10 @@ body {
         flex-direction: column;
         gap: 12px;
         text-align: center;
+    }
+    
+    .logo-icon {
+        transform: scale(1.2);
+        height: 44px;
     }
 }
