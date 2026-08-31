@@ -68,6 +68,22 @@ body {
     transform: translateY(0);
 }
 
+/* ===== CUSTOM LOGO STYLES ===== */
+.logo-icon {
+    height: 28px;
+    width: auto;
+    margin-right: 10px;
+    filter: drop-shadow(0 0 6px rgba(125, 211, 252, 0.3));
+}
+
+.footer-logo {
+    height: 20px;
+    width: auto;
+    margin-right: 8px;
+    vertical-align: middle;
+    filter: drop-shadow(0 0 4px rgba(125, 211, 252, 0.3));
+}
+
 /* ===== NAVBAR ===== */
 .navbar {
     position: fixed;
@@ -93,16 +109,11 @@ body {
 .nav-brand {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0;
     color: var(--color-text-primary);
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
-}
-
-.logo-icon {
-    color: var(--color-icy-blue);
-    font-size: 20px;
 }
 
 .nav-links {
@@ -405,6 +416,8 @@ body {
 .footer-left {
     font-weight: 600;
     font-size: 16px;
+    display: flex;
+    align-items: center;
 }
 
 .footer-right {
